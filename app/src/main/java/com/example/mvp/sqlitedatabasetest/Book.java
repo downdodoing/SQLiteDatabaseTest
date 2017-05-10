@@ -7,7 +7,6 @@ public class Book extends DataSupport {
     private String author;
     private double price;
     private int pages;
-    private String name;
 
     public int getId() {
         return id;
@@ -39,13 +38,5 @@ public class Book extends DataSupport {
 
     public void setPages(int pages) {
         this.pages = pages;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
     }
 }
