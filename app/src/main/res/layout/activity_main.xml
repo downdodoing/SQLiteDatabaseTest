@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context="com.example.mvp.sqlitedatabasetest.MainActivity">
 
     <Button
@@ -11,4 +12,14 @@
         android:onClick="click_bnt"
         android:text="创建" />
 
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:onClick="getData"
+        android:text="获取数据" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:onClick="getContacts"
+        android:text="获取手机联系人数据" />
 </LinearLayout>
