@@ -17,6 +17,8 @@ import android.support.v7.app.NotificationCompat;
 import android.util.Log;
 import android.view.View;
 
+import com.example.mvp.sqlitedatabasetest.downloadsample.DownloadActivity;
+
 import org.litepal.LitePal;
 import org.litepal.crud.DataSupport;
 
@@ -89,6 +91,21 @@ public class MainActivity extends AppCompatActivity {
 
     public void camara(View view) {
         Intent intent = new Intent(this, TakePhotoActivity.class);
+        startActivity(intent);
+    }
+
+    public void getIntelData(View view) {
+        Intent intent = new Intent(this, GetIntelDataActivity.class);
+        startActivity(intent);
+    }
+
+    public void toService(View view) {
+        Intent intent = new Intent(this, MyServiceActivity.class);
+        startActivity(intent);
+    }
+
+    public void download(View view) {
+        Intent intent = new Intent(this, DownloadActivity.class);
         startActivity(intent);
     }
 }
