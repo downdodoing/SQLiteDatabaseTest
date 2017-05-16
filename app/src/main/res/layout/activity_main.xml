@@ -12,11 +12,7 @@
         android:onClick="click_bnt"
         android:text="创建" />
 
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-=======
-=======
->>>>>>> origin/master
+
     <Button
         android:layout_width="match_parent"
         android:layout_height="50dp"
@@ -40,41 +36,29 @@
         android:layout_height="50dp"
         android:onClick="camara"
         android:text="照相机" />
-<<<<<<< HEAD
 
-=======
->>>>>>> origin/master
+
     <Button
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:onClick="getIntelData"
         android:text="获取网络数据" />
-<<<<<<< HEAD
 
-=======
->>>>>>> origin/master
     <Button
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:onClick="toService"
         android:text="服务" />
-<<<<<<< HEAD
 
-=======
->>>>>>> origin/master
     <Button
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:onClick="download"
         android:text="下载" />
-<<<<<<< HEAD
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:onClick="location"
         android:text="定位" />
->>>>>>> Stashed changes
-=======
->>>>>>> origin/master
 </LinearLayout>

@@ -16,18 +16,12 @@ import android.os.Bundle;
 import android.support.v7.app.NotificationCompat;
 import android.util.Log;
 import android.view.View;
-<<<<<<< HEAD
-<<<<<<< Updated upstream
 import android.widget.Toast;
-=======
 
 import com.example.mvp.sqlitedatabasetest.downloadsample.DownloadActivity;
 import com.example.mvp.sqlitedatabasetest.lbs.LocationActivity;
->>>>>>> Stashed changes
-=======
 
 import com.example.mvp.sqlitedatabasetest.downloadsample.DownloadActivity;
->>>>>>> origin/master
 
 import org.litepal.LitePal;
 import org.litepal.crud.DataSupport;
@@ -67,11 +61,6 @@ public class MainActivity extends AppCompatActivity {
         book.setPrice(16.5);
         book.save();
     }
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-=======
-=======
->>>>>>> origin/master
 
     public void getData(View view) {
         List<Book> books = DataSupport.findAll(Book.class);
@@ -123,13 +112,9 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, DownloadActivity.class);
         startActivity(intent);
     }
-<<<<<<< HEAD
 
     public void location(View view) {
         Intent intent = new Intent(this, LocationActivity.class);
         startActivity(intent);
     }
->>>>>>> Stashed changes
-=======
->>>>>>> origin/master
 }
