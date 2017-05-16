@@ -7,12 +7,11 @@ import android.app.PendingIntent;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.graphics.BitmapFactory;
-import android.graphics.Color;
+import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 import android.support.v7.app.NotificationCompat;
 import android.util.Log;
 import android.view.View;
@@ -107,5 +106,8 @@ public class MainActivity extends AppCompatActivity {
     public void download(View view) {
         Intent intent = new Intent(this, DownloadActivity.class);
         startActivity(intent);
+    }
+
+    public void location(View view) {
     }
 }
