@@ -11,4 +11,54 @@
         android:onClick="click_bnt"
         android:text="创建" />
 
+<<<<<<< Updated upstream
+=======
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:onClick="getData"
+        android:text="获取数据" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:onClick="getContacts"
+        android:text="获取手机联系人数据" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:onClick="notification"
+        android:text="通知" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:onClick="camara"
+        android:text="照相机" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:onClick="getIntelData"
+        android:text="获取网络数据" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:onClick="toService"
+        android:text="服务" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:onClick="download"
+        android:text="下载" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:onClick="location"
+        android:text="定位" />
+>>>>>>> Stashed changes
 </LinearLayout>
