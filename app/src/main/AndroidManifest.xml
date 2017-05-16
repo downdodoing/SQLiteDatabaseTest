@@ -6,7 +6,6 @@
     <uses-permission android:name="android.permission.VIBRATE" />
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
@@ -55,7 +54,8 @@
             android:enabled="true"
             android:exported="true" />
 
-        <activity android:name=".downloadsample.DownloadActivity"></activity>
+        <activity android:name=".downloadsample.DownloadActivity" />
+        <activity android:name=".lbs.LocationActivity"></activity>
     </application>
 
 </manifest>
