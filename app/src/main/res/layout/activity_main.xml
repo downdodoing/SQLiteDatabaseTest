@@ -12,7 +12,6 @@
         android:onClick="click_bnt"
         android:text="创建" />
 
-
     <Button
         android:layout_width="match_parent"
         android:layout_height="50dp"
