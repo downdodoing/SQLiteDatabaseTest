@@ -17,6 +17,7 @@ import android.util.Log;
 import android.view.View;
 
 import com.example.mvp.sqlitedatabasetest.downloadsample.DownloadActivity;
+import com.example.mvp.sqlitedatabasetest.lbs.LocationActivity;
 
 import org.litepal.LitePal;
 import org.litepal.crud.DataSupport;
@@ -109,5 +110,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void location(View view) {
+
     }
 }
