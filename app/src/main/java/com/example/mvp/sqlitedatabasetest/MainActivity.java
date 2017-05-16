@@ -110,7 +110,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void location(View view) {
-        Intent intent = new Intent(this, LocationActivity.class);
-        startActivity(intent);
+
     }
 }
