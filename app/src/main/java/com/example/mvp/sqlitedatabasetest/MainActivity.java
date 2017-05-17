@@ -18,6 +18,7 @@ import android.view.View;
 
 import com.example.mvp.sqlitedatabasetest.downloadsample.DownloadActivity;
 import com.example.mvp.sqlitedatabasetest.lbs.LocationActivity;
+import com.example.mvp.sqlitedatabasetest.material_design.MaterialDesignActivity;
 
 import org.litepal.LitePal;
 import org.litepal.crud.DataSupport;
@@ -110,6 +111,12 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void location(View view) {
+        Intent intent = new Intent(this, LocationActivity.class);
+        startActivity(intent);
+    }
 
+    public void showMaterialDessign(View view) {
+        Intent intent = new Intent(this, MaterialDesignActivity.class);
+        startActivity(intent);
     }
 }
